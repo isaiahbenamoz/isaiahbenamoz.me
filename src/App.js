@@ -15,13 +15,19 @@ const VERSES = [
   CHAPTER_56_VERSE_4,
 ];
 
+const ANIMATION_CLASSES = ["pulse10", "pulse11", "pulse12", "pulse13"];
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         {Array.from({ length: 100 }).map(() => {
           const randomIndex = Math.floor(Math.random() * VERSES.length);
-          return <div className="pulse">{VERSES[randomIndex]}</div>;
+          return (
+            <div className={ANIMATION_CLASSES[randomIndex]}>
+              {VERSES[randomIndex]}
+            </div>
+          );
         })}
       </header>
     </div>
