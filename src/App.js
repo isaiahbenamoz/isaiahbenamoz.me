@@ -4,7 +4,7 @@ import {
   CHAPTER_53_VERSE_5,
   CHAPTER_53_VERSE_8,
   CHAPTER_53_VERSE_12,
-  CHAPTER_56_VERSE_4,
+  CHAPTER_56_VERSE_3,
 } from "./Isaiah";
 import React from "react";
 
@@ -13,7 +13,7 @@ const VERSES = [
   CHAPTER_53_VERSE_5,
   CHAPTER_53_VERSE_8,
   CHAPTER_53_VERSE_12,
-  CHAPTER_56_VERSE_4,
+  CHAPTER_56_VERSE_3,
 ];
 
 const ANIMATION_CLASSES = ["pulse10", "pulse11", "pulse12", "pulse13"];
