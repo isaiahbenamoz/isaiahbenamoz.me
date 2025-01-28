@@ -25,8 +25,11 @@ function App() {
         {Array.from({ length: 100 }).map(() => {
           const randomIndex = Math.floor(Math.random() * VERSES.length);
           return (
-            <div className={ANIMATION_CLASSES[randomIndex]}>
-              {VERSES[randomIndex]}
+            <div
+              className={ANIMATION_CLASSES[randomIndex]}
+              onClick={() => window.open(VERSES[randomIndex].link)}
+            >
+              {VERSES[randomIndex].hebrew}
             </div>
           );
         })}
