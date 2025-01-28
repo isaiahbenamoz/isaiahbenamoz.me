@@ -6,6 +6,7 @@ import {
   CHAPTER_53_VERSE_12,
   CHAPTER_56_VERSE_4,
 } from "./Isaiah";
+import React from "react";
 
 const VERSES = [
   CHAPTER_50_VERSE_6,
