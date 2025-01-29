@@ -27,11 +27,14 @@ function App() {
     <div className="App">
       <header className="App-header">
         {Array.from({ length: 100 }).map(() => {
-          const randomIndex = Math.floor(Math.random() * VERSES.length);
+          const verseIndex = Math.floor(Math.random() * VERSES.length);
+          const animationIndex = Math.floor(
+            Math.random() * ANIMATION_CLASSES.length
+          );
           return (
             <div
-              className={ANIMATION_CLASSES[randomIndex]}
-              onClick={() => window.open(VERSES[randomIndex].link)}
+              className={ANIMATION_CLASSES[animationIndex]}
+              onClick={() => window.open(VERSES[verseIndex].link)}
             >
               {VERSES[randomIndex].hebrew}
             </div>
