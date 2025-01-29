@@ -1,5 +1,7 @@
 import "./App.css";
 import {
+  CHAPTER_26_VERSE_17,
+  CHAPTER_26_VERSE_18,
   CHAPTER_50_VERSE_6,
   CHAPTER_53_VERSE_5,
   CHAPTER_53_VERSE_8,
@@ -9,6 +11,8 @@ import {
 import React from "react";
 
 const VERSES = [
+  CHAPTER_26_VERSE_17,
+  CHAPTER_26_VERSE_18,
   CHAPTER_50_VERSE_6,
   CHAPTER_53_VERSE_5,
   CHAPTER_53_VERSE_8,

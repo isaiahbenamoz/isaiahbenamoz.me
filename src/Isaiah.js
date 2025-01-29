@@ -1,3 +1,15 @@
+export const CHAPTER_26_VERSE_17 = {
+  hebrew:
+    "יז  כְּמוֹ הָרָה תַּקְרִיב לָלֶדֶת, תָּחִיל תִּזְעַק בַּחֲבָלֶיהָ--כֵּן הָיִינוּ מִפָּנֶיךָ, יְהוָה.",
+  link: "https://www.biblegateway.com/passage/?search=Isaiah%2026%3A17&version=NIV",
+};
+
+export const CHAPTER_26_VERSE_18 = {
+  hebrew:
+    "יח  הָרִינוּ חַלְנוּ, כְּמוֹ יָלַדְנוּ רוּחַ; יְשׁוּעֹת בַּל-נַעֲשֶׂה אֶרֶץ, וּבַל-יִפְּלוּ יֹשְׁבֵי תֵבֵל.",
+  link: "https://www.biblegateway.com/passage/?search=Isaiah%2026%3A18&version=NIV",
+};
+
 export const CHAPTER_50_VERSE_6 = {
   hebrew:
     "גֵּוִי נָתַתִּי לְמַכִּים, וּלְחָיַי לְמֹרְטִים; פָּנַי לֹא הִסְתַּרְתִּי, מִכְּלִמּוֹת וָרֹק.",
