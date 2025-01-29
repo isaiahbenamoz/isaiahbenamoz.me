@@ -36,7 +36,7 @@ function App() {
               className={ANIMATION_CLASSES[animationIndex]}
               onClick={() => window.open(VERSES[verseIndex].link)}
             >
-              {VERSES[randomIndex].hebrew}
+              {VERSES[verseIndex].hebrew}
             </div>
           );
         })}
